@@ -1,0 +1,492 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"doc",
+				"doc_f	Function"
+			],
+			[
+				"contct",
+				"contactForm"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 47,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 358.0,
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ci_",
+				"Snippet: ci_start"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"snippet",
+				"Snippet: controller"
+			],
+			[
+				"snippets",
+				"Snippet: ci_start"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"timel",
+				"Twitter timeline"
+			],
+			[
+				"twit",
+				"Twitter timeline"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"github",
+				"GitHub: Copy Gist to Clipboard"
+			],
+			[
+				"set javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"gist:",
+				"Gist: Open Gist"
+			],
+			[
+				"create pu",
+				"Gist: Create Public Gist"
+			],
+			[
+				"create publ",
+				"Gist: Create Public Gist"
+			],
+			[
+				"gist: pub",
+				"Gist: Create Public Gist"
+			],
+			[
+				"create ",
+				"Gist: Create Public Gist"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"manage",
+				"Fetch: Manage remote files"
+			],
+			[
+				"fetc",
+				"Fetch"
+			],
+			[
+				"fet",
+				"Fetch"
+			],
+			[
+				"fetch",
+				"Fetch: Manage remote files"
+			],
+			[
+				"pakc insta",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"Set Syntax: iTodo"
+			],
+			[
+				"syn: html",
+				"Set Syntax: HTML"
+			],
+			[
+				"itod",
+				"Set Syntax: iTodo"
+			],
+			[
+				"itodo",
+				"Set Syntax: iTodo"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack insta",
+				"Package Control: Install Package"
+			],
+			[
+				"todo ",
+				"Todo: Add"
+			],
+			[
+				"pacak",
+				"Package Control: Install Package"
+			],
+			[
+				"cdn",
+				"cdnjs: Import Script"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"paca",
+				"Package Control: List Packages"
+			],
+			[
+				"Pack		",
+				"Package Control: Add Channel"
+			],
+			[
+				"SNIPPET",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"snipp",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Andrew/Sites/cohort/application/controllers/pages.php",
+		"/Users/Andrew/Sites/cohort/application/views/layouts/main.php",
+		"/Users/Andrew/Sites/cohort/assets/js/main.js",
+		"/Users/Andrew/Sites/cohort/assets/css/style.css",
+		"/Users/Andrew/Sites/cohort/application/views/forms/post.php",
+		"/Users/Andrew/Sites/cohort/application/controllers/threads.php",
+		"/Users/Andrew/Sites/cohort/application/views/pages/posts.php",
+		"/Users/Andrew/Sites/cohort/application/models/turns.php",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Andrew/Sites/cohort/application/views/partials/head.php",
+		"/Users/Andrew/Sites/cohort/application/views/partials/stylesheets.php",
+		"/Users/Andrew/Sites/cohort/assets/js/vendor/modernizr-cohort.min.js",
+		"/Users/Andrew/Sites/cohort/application/views/partials/scripts.php",
+		"/Users/Andrew/Sites/=frameworks=/bootstrap/less/bootstrap.less",
+		"/Users/Andrew/Sites/cohort/application/controllers/welcome.php",
+		"/Users/Andrew/Sites/cohort/application/views/pages/home.php",
+		"/Users/Andrew/Sites/frameworks/html5-boilerplate/index.html",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Andrew/Sites/frameworks/bootstrap/docs/assets/css/bootstrap.css",
+		"/Users/Andrew/Sites/frameworks/bootstrap/README.md",
+		"/Users/Andrew/Sites/frameworks/html5-boilerplate/readme.md",
+		"/Users/Andrew/Sites/frameworks/bootstrap/js/README.md",
+		"/Users/Andrew/Sites/cohort/application/config/config.php",
+		"/Users/Andrew/Sites/cohort/application/config/database.php",
+		"/Users/Andrew/Sites/cohort/application/config/autoload.php",
+		"/Users/Andrew/Sites/cohort/application/config/routes.php",
+		"/Users/Andrew/Sites/cohort/application/config/user_agents.php",
+		"/Users/Andrew/Sites/cohort/application/config/ion_auth.php",
+		"/Users/Andrew/Sites/cohort/application/views/auth/create_user.php",
+		"/Users/Andrew/Sites/cohort/application/controllers/auth.php",
+		"/Users/Andrew/Sites/frameworks/CodeIgniter-Ion-Auth/sql/ion_auth.sql",
+		"/Users/Andrew/Sites/cohort/application/views/about.php",
+		"/Users/Andrew/Sites/frameworks/CodeIgniter-Ion-Auth/controllers/auth.php",
+		"/Users/Andrew/Sites/frameworks/CodeIgniter-Ion-Auth/config/ion_auth.php",
+		"/Users/Andrew/Sites/cohort/README.md",
+		"/Users/Andrew/Sites/cohort/application/views/games.php",
+		"/Users/Andrew/Sites/contact-manager/index.html",
+		"/Users/Andrew/Sites/contact-manager/js/app.js",
+		"/Users/Andrew/Sites/contact-manager/screen.css",
+		"/Users/Andrew/Sites/shave/whmcs/index.php",
+		"/Users/Andrew/Sites/cohort/application/==notes.txt",
+		"/Users/Andrew/Sites/lessons/lesson-effects.html",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/HTML/html.sublime-snippet",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/JavaScript/for-()-{}.sublime-snippet",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/JavaScript/siaf.sublime-snippet",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/HTML/siaf.sublime-snippet",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/Andrew/Sites/lessons/night.css",
+		"/Users/Andrew/Sites/lessons/bri.php",
+		"/Users/Andrew/Sites/lessons/day.css",
+		"/Users/Andrew/Sites/lessons/index.html",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/Terminal/Base File.sublime-settings",
+		"/Users/Andrew/Sites/resume/resume.html",
+		"/Users/Andrew/Dropbox/My Documents/Career/Applications In Progress/Resume2012.html",
+		"/Users/Andrew/Sites/cohort/application/classes/model/user/player.php",
+		"/Users/Andrew/Sites/cohort/application/classes/model/user/gm.php",
+		"/Users/Andrew/Sites/cohort/application/classes/controller/thread.php",
+		"/Users/Andrew/Sites/cohort/application/classes/model/thread.php",
+		"/Users/Andrew/Sites/cohort/application/==Requests.txt",
+		"/Users/Andrew/Sites/cohort/application/classes/model/user.php",
+		"/Users/Andrew/Sites/cohort/application/classes/model/turn.php",
+		"/Users/Andrew/Sites/cohort/application/classes/model/piece.php",
+		"/Users/Andrew/Sites/cohort/application/bootstrap.php",
+		"/Users/Andrew/Sites/cohort/application/classes/session.php",
+		"/Users/Andrew/Sites/cohort/application/classes/controller/welcome.php",
+		"/Users/Andrew/Sites/cohort/application/classes/controller/gm.php",
+		"/Users/Andrew/Sites/cohort/application/views/gmpanel/panel.php",
+		"/Users/Andrew/Sites/cohort/application/views/gmpanel/gameform.php",
+		"/Users/Andrew/Sites/cohort/application/views/gmpanel/tasks.php",
+		"/Users/Andrew/Sites/cohort/application/views/welcome/login.php",
+		"/Users/Andrew/Sites/cohort/application/views/gmpanel/newthread.php",
+		"/private/var/folders/FZ/FZY9gXZKGdyoQwJQOYAlv++++TI/-Tmp-/748138f2-b690-4245-9938-dff3466e36e5/html/phpinfo.php",
+		"/Users/Andrew/Sites/cohort/system/classes/config/group.php",
+		"/Users/Andrew/Sites/cohort/.htaccess",
+		"/Users/Andrew/Sites/cohort/application/classes/model/game.php",
+		"/Users/Andrew/Sites/cohort/application/classes/controller/game.php",
+		"/Users/Andrew/Sites/cohort/application/views/gmpanel/game_form.php",
+		"/Users/Andrew/Sites/cohort/application/Requests.txt",
+		"/Users/Andrew/Dropbox/Projects/scry/LICENSE.md",
+		"/Users/Andrew/Dropbox/Projects/scry/application/bootstrap.php",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/classes/controller/pages.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/classes/controller/manager.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/classes/model/user.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/classes/model/project.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/classes/model/projects/user.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/migrations/003_create_projects_users.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/classes/controller/estimates.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/views/fragments.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/views/template.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/config/routes.php",
+		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/config/db.php",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"phone",
+			"company",
+			"})();",
+			"border",
+			"font",
+			"font-size",
+			"margin",
+			"width: 500px;\n	margin: 0 auto;\n	text-align: center;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 47,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"day",
+				"day.css"
+			],
+			[
+				"inde",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}
