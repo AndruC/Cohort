@@ -15,5 +15,5 @@
 
 	<?php $this->load->view('partials/stylesheets'); ?>
 	
-	<script src="<?php echo base_url('assets'); ?>/js/vendor/modernizr-2.5.3.min.js"></script>
+	<script src="<?php echo base_url('assets'); ?>/js/vendor/modernizr-cohort.min.js"></script>
 </head>

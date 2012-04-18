@@ -1,0 +1,18 @@
+# Design Document #
+
+Seriously.  One damn thing at a time.  Slow the fuck down, dude.  CodeIgniter's a big framework, and you're just getting started with it.  There's no need to jump right in.  Alright?  Now what's the first bit of functionality that's needed.  Forget "practical" use.  Just something to show off.  Got it?
+
+- Weekly out-of-game Sessions
+
+What's required for that?
+
+- Need to be able to start a new week (probably in an existing campaign, but we'll get there).
+- Grab the date as it's needed; no need for a time for the session.
+- A Cohort Session lasts from its creation to the time of the next in-game session
+- A Session can have a TITLE, displayed at the header, otherwise just display the Campaign and the Session number (within the scope of that Campaign/Adventure)
+- A Session can have a RECAP of the previous session (in-game or Cohort)
+- Sessions can be private or game-wide
+- A PRIVATE SESSION involves one or more players that only they can contribute to.
+- Optionally: implement observers that may view a Session but not contribute
+
+Campaign > Adventure > Session > Encounter > Turn
