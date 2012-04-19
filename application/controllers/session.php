@@ -8,6 +8,12 @@
  **/
 class Session extends CI_Controller {
 
+	public function __construct()
+	{
+		parent::__construct();
+
+	}
+
 	/**
 	 * Display all threads available to the user
 	 **/
@@ -21,19 +27,21 @@ class Session extends CI_Controller {
 	 **/
 	public function create()
 	{
-
+		$this->load->helper('form');
 		$this->load->library('form_validation');
 
-		if ($this->form_validation->run())
+		$this->form_validation->set_rules('title', 'Session title', 'required');
+		$this->form_validation->set_rules('campaign', 'Your Campaign', 'required');
+
+		if ( ! $this->form_validation->run() )
 		{
-			// Display some kind of success message here
-			echo "Woo.";
+			// Validation error
+			$this->load->view('forms/session');
 		}
 		else
 		{
-			$data['content'] = 'forms/session';
-			// Validation error
-			$this->load->view('layouts/main', $data);
+			// Display some kind of success message here
+			$this->load->view('pages/home');
 		}
 	}
 }

@@ -13,7 +13,7 @@
 			} 
 		?>
 		
-		<?php echo form_open('session/new'); ?>
+		<?php echo form_open('session/create'); ?>
 		
 		<?php echo form_input('title', 'Title (optional)'); ?>
 		
@@ -26,7 +26,7 @@
 		<!-- Insert for loop to list out checkboxes of all available players -->
 		<!-- <?php echo form_checkbox('players', 'You', FALSE); ?> -->
 		
-		<?php echo form_button('submit', 'Create Session', ); ?>
+		<?php echo form_submit('submit', 'Create Session'); ?>
 		
 		<?php echo form_close(); ?>
 

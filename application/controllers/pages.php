@@ -11,17 +11,21 @@ class Pages extends CI_Controller {
 
 	public function view($page = 'home')
 	{
+		$this->load->helper('form');
 
 		if ( ! file_exists('application/views/pages/'.$page.'.php') )
 		{
 			// No static view for the page
 			show_404();
 		}
-		
-		$data['title'] = ucfirst($page);
-		$data['content'] = $page;
+		else
+		{
+			$data['title'] = ucfirst($page);
+			$data['content'] = $page;
 
-		$this->load->view('layouts/main', $data);
+			$this->load->view('layouts/main', $data);	
+		}
+		
 	}
 }
 
