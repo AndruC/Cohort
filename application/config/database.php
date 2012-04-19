@@ -72,16 +72,36 @@
 | the active record class
 */
 
-$active_group = 'default';
+$active_group = 'sqlite';
 $active_record = TRUE;
 
-$db['default'] = array(
+$db['mysqli'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'cohort',
 	'password' => 'C5zodiac5T',
 	'database' => 'cohort',
 	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => TRUE,
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'autoinit' => TRUE,
+	'stricton' => FALSE,
+	'failover' => array()
+);
+
+$db['sqlite'] = array(
+	'dsn'	=> '',
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
+	'database' => 'sqlite:cohort.db',
+	'dbdriver' => 'sqlite',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => TRUE,
