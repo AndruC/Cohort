@@ -11,7 +11,7 @@ class Session extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-
+		$this->load->model('game_session');
 	}
 
 	/**
@@ -19,7 +19,7 @@ class Session extends CI_Controller {
 	 **/
 	public function index()
 	{
-		echo "Well now you've done it.";
+		$this->view();
 	}
 
 	/**
@@ -41,7 +41,25 @@ class Session extends CI_Controller {
 		else
 		{
 			// Display some kind of success message here
-			$this->load->view('pages/home');
+			$this->game_session->set_session();
+
+			$this->view();
+		}
+	}
+
+	public function view($slug = FALSE)
+	{
+		$this->load->helper('url');
+
+		$data['session'] = $this->game_session->get_session($slug);
+
+		if ( ! $slug )
+		{
+			$this->load->view('sessions/all', $data);
+		}
+		else
+		{
+			$this->load->view('sessions/thread', $data);
 		}
 	}
 }

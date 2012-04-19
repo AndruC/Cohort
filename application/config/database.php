@@ -72,7 +72,7 @@
 | the active record class
 */
 
-$active_group = 'sqlite';
+$active_group = 'mysqli';
 $active_record = TRUE;
 
 $db['mysqli'] = array(
@@ -100,7 +100,7 @@ $db['sqlite'] = array(
 	'hostname' => '',
 	'username' => '',
 	'password' => '',
-	'database' => 'sqlite:cohort.db',
+	'database' => 'cohort.db',
 	'dbdriver' => 'sqlite',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
