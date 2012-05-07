@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Game_Session extends CI_Model {
+class Game_session extends CI_Model {
 
 	public function __construct()
 	{
