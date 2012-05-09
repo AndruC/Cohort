@@ -8,7 +8,7 @@
 	   More info: h5bp.com/i/378 -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title><?php echo $title ?></title>
+	<title><?php echo $page_title ?></title>
 
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">

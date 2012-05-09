@@ -19,14 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 47,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -35,12 +27,44 @@
 		"selected_items":
 		[
 			[
-				"packag",
-				"Package Control: List Packages"
+				"pack",
+				"Package Control: Install Package"
 			],
 			[
 				"php",
 				"Set Syntax: PHP"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"constr",
+				"Snippet: construct"
+			],
+			[
+				"function",
+				"Snippet: Function"
+			],
+			[
+				"mo",
+				"Snippet: model"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"form",
+				"Snippet: form_submit"
+			],
+			[
+				"form_",
+				"Snippet: form_input"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
 			],
 			[
 				"ci_",
@@ -49,10 +73,6 @@
 			[
 				"css",
 				"Set Syntax: CSS"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
 			],
 			[
 				"snippet",
@@ -81,10 +101,6 @@
 			[
 				"Remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"package",
-				"Package Control: Discover Packages"
 			],
 			[
 				"Install",
@@ -248,6 +264,35 @@
 	},
 	"file_history":
 	[
+		"/Users/Andrew/Sites/Cohort/application/controllers/session.php",
+		"/Users/Andrew/Sites/Cohort/application/models/game_session.php",
+		"/Users/Andrew/Sites/Cohort/application/views/sessions/thread.php",
+		"/Users/Andrew/Sites/Cohort/application/views/sessions/all.php",
+		"/Users/Andrew/Sites/Cohort/.gitignore",
+		"/Users/Andrew/Sites/Cohort/application/config/database.php",
+		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/README.rst",
+		"/Users/Andrew/Sites/Cohort/css/style.css",
+		"/Users/Andrew/Sites/Cohort/application/views/pages/home.php",
+		"/Users/Andrew/Sites/Cohort/application/controllers/pages.php",
+		"/Users/Andrew/Sites/Cohort/application/config/routes.php",
+		"/Users/Andrew/Sites/Cohort/application/views/layouts/main.php",
+		"/Users/Andrew/Sites/Cohort/assets/css/style.css",
+		"/Users/Andrew/Sites/Cohort/=notes.txt",
+		"/Users/Andrew/Sites/Cohort/application/views/forms/session.php",
+		"/Users/Andrew/Sites/Cohort/application/config/config.php",
+		"/Users/Andrew/Sites/Cohort/index.php",
+		"/Users/Andrew/Sites/Cohort/application/config/autoload.php",
+		"/Users/Andrew/Sites/Cohort/user_guide_src/source/libraries/unit_testing.rst",
+		"/Users/Andrew/Sites/Cohort/application/views/sessions/success.php",
+		"/Users/Andrew/Sites/Cohort/application/views/partials/head.php",
+		"/Users/Andrew/Sites/Cohort/application/views/partials/close_html.php",
+		"/Users/Andrew/Sites/=frameworks=/CodeIgniter/user_guide_src/README.rst",
+		"/Users/Andrew/Sites/Cohort/application/controllers/welcome.php",
+		"/Users/Andrew/Sites/Cohort/application/views/forms/post.php",
+		"/Users/Andrew/Sites/Cohort/application/views/pages/posts.php",
+		"/Users/Andrew/Sites/Cohort/application/views/welcome_message.php",
+		"/Users/Andrew/Sites/Cohort/application/views/partials/stylesheets.php",
+		"/Users/Andrew/Sites/Cohort/assets/css/h5bp.css",
 		"/Users/Andrew/Sites/cohort/application/controllers/pages.php",
 		"/Users/Andrew/Sites/cohort/application/views/layouts/main.php",
 		"/Users/Andrew/Sites/cohort/assets/js/main.js",
@@ -355,6 +400,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -362,6 +408,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sessions",
+			"load",
+			"auto",
+			"form',",
+			"form",
 			"phone",
 			"company",
 			"})();",
@@ -387,35 +438,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": ".gitignore",
-					"settings":
-					{
-						"buffer_size": 47,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								47,
-								47
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -461,6 +485,26 @@
 		"selected_items":
 		[
 			[
+				"data",
+				"application/config/database.php"
+			],
+			[
+				"auto",
+				"application/config/autoload.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"config",
+				"application/config/config.php"
+			],
+			[
+				"confi",
+				"application/config/config.php"
+			],
+			[
 				"i",
 				"index.html"
 			],
@@ -477,11 +521,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,

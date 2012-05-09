@@ -89,9 +89,7 @@
 // (:any) will match a segment containing any character. 
 
 $route['default_controller'] = 'welcome';
-// by default, take any input after the base, and send to our static page controller
 
-$route['pages/(:any)'] = 'pages/view/$1'; 
 $route['404_override'] = '';
 
 /* End of file routes.php */

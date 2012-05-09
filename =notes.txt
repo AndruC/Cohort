@@ -16,3 +16,20 @@ What's required for that?
 - Optionally: implement observers that may view a Session but not contribute
 
 Campaign > Adventure > Session > Encounter > Turn
+
+## Session Model ##
+
+### Properties ###
+
+- title
+- created date
+- campaign
+- characters involved
+- encounters
+- event [outside the flow of an encounter]
+- details [used for recap, setup; a paragraph or two at the top of the session view; contextually separate]
+
+### Methods ###
+
+- getters
+- setters

@@ -36,7 +36,10 @@ class Session extends CI_Controller {
 		if ( ! $this->form_validation->run() )
 		{
 			// Validation error
-			$this->load->view('forms/session');
+			$page['content'] = $this->load->view('forms/session', '', TRUE);
+			$page['page_title'] = 'Session Manager';
+
+			$this->load->view('layouts/main', $page);
 		}
 		else
 		{
@@ -49,17 +52,35 @@ class Session extends CI_Controller {
 
 	public function view($slug = FALSE)
 	{
-		$this->load->helper('url');
-
-		$data['session'] = $this->game_session->get_session($slug);
 
 		if ( ! $slug )
-		{
-			$this->load->view('sessions/all', $data);
+		{	
+			$data['session'] = $this->game_session->get_session();
+
+			$page = array(
+				'page_title' => 'Cohort Sessions',
+				'content' => $this->load->view('sessions/all', $data, TRUE)
+			);
+
+			$this->load->view('layouts/main', $page);
 		}
 		else
 		{
-			$this->load->view('sessions/thread', $data);
+			$session_model = $this->game_session->load($slug);
+
+			$page = array(
+				'title' 	=> $session_model->title,
+				'campaign' 	=> $session_model->campaign,
+				'details'  	=> $session_model->details
+				'posts'		=> $this->get_session->get_posts()
+			)
+
+			// Requires $page['posts'];
+			$page = array(
+				'page_title' => 'Cohort Sessions'
+			);
+
+			$this->load->view('layouts/main', $page);
 		}
 	}
 }
