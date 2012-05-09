@@ -4,14 +4,15 @@
 		"selected_items":
 		[
 			[
-				"doc",
-				"doc_f	Function"
+				"fourty",
+				"fourty-thirty-graph"
 			],
 			[
-				"contct",
-				"contactForm"
+				"no",
+				"no-repeat"
 			],
 			[
+<<<<<<< HEAD
 				"fun",
 				"function"
 			]
@@ -29,12 +30,17 @@
 			[
 				"pack",
 				"Package Control: Install Package"
+=======
+				"for",
+				"for	for (…) {…}"
+>>>>>>> Minimal changes
 			],
 			[
-				"php",
-				"Set Syntax: PHP"
+				"getAll",
+				"getAllSlides"
 			],
 			[
+<<<<<<< HEAD
 				"package",
 				"Package Control: Discover Packages"
 			],
@@ -49,12 +55,21 @@
 			[
 				"mo",
 				"Snippet: model"
+=======
+				"cons",
+				"console.log();"
 			],
 			[
-				"html",
-				"Set Syntax: HTML"
+				"con",
+				"console.log();"
+>>>>>>> Minimal changes
 			],
 			[
+				"imag",
+				"image-nav"
+			],
+			[
+<<<<<<< HEAD
 				"form",
 				"Snippet: form_submit"
 			],
@@ -77,181 +92,211 @@
 			[
 				"snippet",
 				"Snippet: controller"
+=======
+				"fift",
+				"fifty-ten-ten"
+>>>>>>> Minimal changes
 			],
 			[
-				"snippets",
-				"Snippet: ci_start"
+				"fakebox",
+				"fakebox-inner"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
+				"over",
+				"overflow-y"
 			],
 			[
-				"timel",
-				"Twitter timeline"
+				"nextPage",
+				"nextPageClass"
 			],
 			[
-				"twit",
-				"Twitter timeline"
+				"background",
+				"background	background-color: rgb"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
+				"ab",
+				"absolute"
 			],
 			[
-				"Remo",
-				"Package Control: Remove Package"
-			],
+				"thumb",
+				"thumbnails"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/config/database.php",
+			"settings":
+			{
+				"buffer_size": 4612,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/config/autoload.php",
+			"settings":
+			{
+				"buffer_size": 4024,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<table>\n<tr><th>Session Title</th><th>Campaign ID</th><th>Slug</th></tr>\n<?php foreach ($session as $s) : ?>\n	<tr>\n		<td><?php echo $s['title']; ?></td>\n		<td><?php echo $s['campaign']; ?></td>\n		<td><a href=\"<?php echo site_url('session/view/'.$s['slug']); ?>\">\n			<?php echo $s['slug']; ?></a></td>\n	</tr>\n<?php endforeach; ?>\n</table>\n\n<h2>Manager Controls</h2>\n<a href=\"#\">",
+			"file": "application/views/sessions/all.php",
+			"file_size": 337,
+			"file_write_time": 1336412415000000,
+			"settings":
+			{
+				"buffer_size": 377,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
 			[
+<<<<<<< HEAD
 				"Install",
+=======
+				"package",
+>>>>>>> Minimal changes
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
+				"timeline",
+				"Twitter timeline"
 			],
 			[
-				"bro",
-				"Preferences: Browse Packages"
+				"time",
+				"Twitter timeline"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
+				"timelin",
+				"Twitter timeline"
 			],
 			[
-				"github",
-				"GitHub: Copy Gist to Clipboard"
+				"ti",
+				"Twitter timeline"
 			],
 			[
-				"set javas",
-				"Set Syntax: JavaScript"
+				"tw",
+				"Tweet"
 			],
 			[
-				"gist",
-				"Gist: Open Gist"
+				"tweet",
+				"Tweet"
 			],
 			[
-				"gist:",
-				"Gist: Open Gist"
+				"twee",
+				"Tweet"
 			],
 			[
-				"create pu",
-				"Gist: Create Public Gist"
+				"twe",
+				"Tweet"
 			],
 			[
-				"create publ",
-				"Gist: Create Public Gist"
+				"wrap selection",
+				"HTML: Wrap Selection With Tag"
 			],
 			[
-				"gist: pub",
-				"Gist: Create Public Gist"
+				"for",
+				"Snippet: for (…) {…}"
 			],
 			[
-				"create ",
-				"Gist: Create Public Gist"
+				"timl",
+				"Twitter timeline"
 			],
 			[
-				"javas",
-				"Set Syntax: JavaScript"
+				"snippets ",
+				"Snippet: serialize"
 			],
 			[
-				"browse",
-				"Preferences: Browse Packages"
+				"t",
+				"Tweet"
 			],
 			[
-				"manage",
-				"Fetch: Manage remote files"
+				"tim",
+				"Twitter timeline"
 			],
 			[
-				"fetc",
-				"Fetch"
-			],
-			[
-				"fet",
-				"Fetch"
-			],
-			[
-				"fetch",
-				"Fetch: Manage remote files"
-			],
-			[
-				"pakc insta",
-				"Package Control: Install Package"
-			],
-			[
-				"todo",
-				"Set Syntax: iTodo"
-			],
-			[
-				"syn: html",
-				"Set Syntax: HTML"
-			],
-			[
-				"itod",
-				"Set Syntax: iTodo"
-			],
-			[
-				"itodo",
-				"Set Syntax: iTodo"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
-			],
-			[
-				"pack insta",
-				"Package Control: Install Package"
-			],
-			[
-				"todo ",
-				"Todo: Add"
-			],
-			[
-				"pacak",
-				"Package Control: Install Package"
+				"sql",
+				"Set Syntax: SQL"
 			],
 			[
 				"cdn",
 				"cdnjs: Import Script"
 			],
 			[
-				"disco",
+				"timel",
+				"Twitter timeline"
+			],
+			[
+				"timline",
+				"Twitter timeline"
+			],
+			[
+				"timlin",
+				"Twitter timeline"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"discove",
 				"Package Control: Discover Packages"
 			],
 			[
-				"align",
-				"Preferences: Alignment File Settings – User"
-			],
-			[
-				"Package",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"Pa",
-				"Package Control: Discover Packages"
-			],
-			[
-				"paca",
+				"list",
 				"Package Control: List Packages"
 			],
 			[
-				"Pack		",
-				"Package Control: Add Channel"
+				"html",
+				"Snippet: DOCTYPE HTML"
 			],
 			[
-				"SNIPPET",
-				"Snippet: #!/usr/bin/env"
+				"timeli",
+				"Twitter timeline"
 			],
 			[
-				"snipp",
-				"Snippet: Lorem ipsum"
+				"twet",
+				"Tweet"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"jquery",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"snippe",
+				"Snippet: html"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 579.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 139.0
+		"height": 160.0
 	},
 	"distraction_free":
 	{
@@ -264,6 +309,7 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/Users/Andrew/Sites/Cohort/application/controllers/session.php",
 		"/Users/Andrew/Sites/Cohort/application/models/game_session.php",
 		"/Users/Andrew/Sites/Cohort/application/views/sessions/thread.php",
@@ -390,10 +436,140 @@
 		"/Users/Andrew/Dropbox/Projects/EmilyCreek/fuel/app/config/db.php",
 		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
 		"/Users/Andrew/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings"
+=======
+		"/Users/brandhealth/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/README.rst",
+		"/Users/brandhealth/Sites/repos/Cohort/application/cohort.sqlite.html",
+		"/Users/brandhealth/Sites/repos/Cohort/application/models/game_session.php",
+		"/Users/brandhealth/Sites/repos/Cohort/application/config/autoload.php",
+		"/Users/brandhealth/Sites/repos/Cohort/application/config/database.php",
+		"/Users/brandhealth/Sites/repos/Cohort/cohort.db",
+		"/Users/brandhealth/Sites/repos/Cohort/system/core/Model.php",
+		"/Users/brandhealth/Sites/repos/Cohort/cohort.sublime-workspace",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/js/functionality-app.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/stages/7314_40-30_edge.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/stages/7314_40-30_edgeActions.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/stages/7314_40-30_edgePreload.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/stages/7314_40-30-10_edge.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/stages/7314_40-30-10_edgePreload.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/stages/7314_20-20_edgePreload.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/stages/7314_20-20_edge.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/stages/edge_includes/json2_min.js",
+		"/Volumes/FileServer/  Active Jobs/GlaxoSmithKline/7314 - ABVA:BIO - iPad DA Updates/Studio/Layout/",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/js/presets.json",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/css/screen.css",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/js/slidedeck.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/js/functionality-app.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/abva/app.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/js/preloadCssImages.jQuery_v5.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/index.html",
+		"/Users/brandhealth/Sites/XCode Projects/www/js/slidedeck.js",
+		"/Users/brandhealth/Sites/libraries/html5-boilerplate/css/style.css",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/css/jquery-mobile-960.css",
+		"/Users/brandhealth/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/brandhealth/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/brandhealth/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/brandhealth/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/js/functionality-app.js",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/css/reset.css",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/js/functionality-old.js",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/js/app-old.js",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/To Do.text",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/.gitignore",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/js/functionality.js",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/js/slides.json",
+		"/Users/brandhealth/Sites/In Progress/CME-SlideDeck/To Do.text",
+		"/Users/brandhealth/Sites/In Progress/CME-SlideDeck/index.html",
+		"/Users/brandhealth/Sites/In Progress/CME-SlideDeck/js/slidedeck.js",
+		"/Users/brandhealth/Sites/repos/CME-Slide-Deck/index.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/js/phonegap-1.4.1.js",
+		"/Users/brandhealth/Sites/In Progress/CME-SlideDeck/js/functionality.js",
+		"/Users/brandhealth/Sites/In Progress/CME-SlideDeck/js/presets.json",
+		"/Users/brandhealth/Sites/In Progress/CME-SlideDeck/js/update.json",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/apr21-build/js/app.js",
+		"/Users/brandhealth/Sites/libraries/html5-boilerplate/index.html",
+		"/Users/brandhealth/Sites/In Progress/CME-SlideDeck/js/config.json",
+		"/Users/brandhealth/Sites/In Progress/CME-SlideDeck/js/slides.json",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/apr20-w-images/js/slides.json",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/apr20-w-images/js/update.json",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/apr21-build/index.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/apr21-build/js/functionality.js",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/apr21-build/mobile.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/apr21-build/test.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/apr20-w-images/js/app.js",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/apr20-w-images/js/functionality.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/biotene/app.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/biotene/css/screen-app.css",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/biotene/app.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/pronamel/app.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/biotene/css/screen-app.css",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/pronamel/css/screen-app.css",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/pronamel/app.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/pronamel/css/screen-app.css",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/biotene/index.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/pronamel/index.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/biotene/js/functionality-app.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/pronamel/js/functionality-app.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/biotene/js/functionality-app.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/pronamel/js/animation.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/biotene/index.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/biotene/css/screen-index.css",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/index.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/pronamel/index.html",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/biotene/css/screen-index.css",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/js/functionality-index.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/pronamel/css/screen-index.css",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/js/functionality-bio.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/app.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/biotene-test-app/www/index.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/biotene-test-app/www/js/functionality.js",
+		"/Users/brandhealth/Desktop/Projects/7414-abrv/biotene-ac/biotene-ac/PhoneGap.plist",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/From Brett/biotene-test-app/biotene-test-app/PhoneGap.plist",
+		"/Users/brandhealth/Desktop/Projects/7414-abrv/biotene-ac/biotene-ac/ChildBrowser/ChildBrowserViewController.m",
+		"/Users/brandhealth/Desktop/Projects/7414-abrv/biotene-ac/biotene-ac/ChildBrowser/ChildBrowserCommand.m",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/bio/css/screen-app.css",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/abva/css/screen-app.css",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/www/js/animation.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/js/functionality-app.js",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/abva/app.html",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/bio/app.html",
+		"/Users/brandhealth/Sites/repos/GSK-Pharmacist-App/english/abva/css/screen-app.css",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/pronamel/js/jquery.fancybox.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/biotene/js/jquery.fancybox.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/biotene/css/animation.css",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/biotene/css/animation.css",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/biotene/js/animation.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/french/biotene/js/jquery-swipeup.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/biotene/js/jquery-swipeup.js",
+		"/Users/brandhealth/Sites/repos/GSK-Dental-Professional-App/english/biotene/css/jquery.fancybox.css",
+		"/Users/brandhealth/Sites/repos/brandhealth.ca/css/jquery.jtweetsanywhere-1.3.1.css",
+		"/Users/brandhealth/Downloads/jTweetsAnywhere-1.3.1/jquery.jtweetsanywhere-1.3.1.js",
+		"/Users/brandhealth/Sites/repos/brandhealth.ca/index.html",
+		"/Users/brandhealth/Sites/repos/brandhealth.ca/js/functionality-mobi.js",
+		"/Users/brandhealth/Sites/repos/brandhealth.ca/js/jquery.zrssfeed.min.js",
+		"/Users/brandhealth/Desktop/www/brandhome/index.html",
+		"/Users/brandhealth/Desktop/www/libraries/cubiq-iscroll/README.md",
+		"/Users/brandhealth/Desktop/www/brandhome/js/jquery.zrssfeed.js",
+		"/Users/brandhealth/Desktop/www/brandhome/js/jquery.gfeed.js",
+		"/Users/brandhealth/Desktop/www/brandhome/js/configure_feed.js",
+		"/Users/brandhealth/Library/Application Support/Sublime Text 2/Packages/ZenCoding/README.creole",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/js/iscroll-lite.js",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/abva/css/screen-index.css",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/js/iscroll-4.js",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/bio/slider.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/js/iscroll.js",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/abva/app.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/abva/css/screen-app.css",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/js/functionality-app.js",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/mobile/2012/GSK/7314 Abreva-Biotene/english/www/bio/app.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/bio/app.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/mobile/2012/GSK/7314 Abreva-Biotene/english/www/abva/css/screen-app.css",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/mobile/2012/GSK/7314 Abreva-Biotene/english/www/abva/app.html",
+		"/Volumes/FileServer/ Staff Folders/Andrew Cousineau/dropbox/From Brett/7314 - Abr:Bio/english/biotene-pharmacist-en/www/bio/css/screen-app.css"
+>>>>>>> Minimal changes
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -408,6 +584,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
 			"sessions",
 			"load",
 			"auto",
@@ -421,6 +598,136 @@
 			"font-size",
 			"margin",
 			"width: 500px;\n	margin: 0 auto;\n	text-align: center;"
+=======
+			"split",
+			"nextPageClass",
+			"cons",
+			"consol",
+			"split",
+			"sub",
+			"console",
+			"wrapper",
+			"loadResources",
+			"stage",
+			"edge_",
+			"images",
+			"activepage",
+			"activepage3",
+			"20-20",
+			"stage",
+			"images",
+			"image",
+			"images",
+			".slide-item",
+			"video",
+			"back",
+			"tap",
+			"createslideshow",
+			"a hre",
+			"prependS",
+			".slides",
+			"position of cur",
+			"video",
+			"currentp",
+			"current",
+			"reloadCust",
+			"empty()",
+			"'.slide",
+			"'slide'\n.slide",
+			".slide",
+			"innerRibbonContainer",
+			"inner",
+			"getthumb",
+			"match",
+			"input",
+			"empty",
+			"ribbon",
+			"preload",
+			"reload",
+			"    };",
+			"loadHom",
+			">",
+			"dir",
+			"replace",
+			"filename",
+			"dir",
+			"id=\"Delete",
+			"populat",
+			"slide-show",
+			"data-slide",
+			"editcustomdeck",
+			"remove",
+			"images/",
+			"<li",
+			"li",
+			"leaveEdi",
+			"back",
+			"view",
+			"custom-decks",
+			"view",
+			"dialog",
+			"dir",
+			"getAll",
+			"deck-update",
+			"customCount",
+			"getAll",
+			"insert",
+			"LOADHOME",
+			"getAll",
+			"loadhome",
+			"rows",
+			"// Called",
+			"slides",
+			"slider",
+			"change",
+			"slideDeck",
+			"DeckModel",
+			"getAllSlides",
+			"switch",
+			"sudoslider",
+			"db",
+			"select",
+			"new",
+			"presets",
+			"slides",
+			"update",
+			"updateDB(",
+			"updateDB",
+			"update",
+			"executeSQL",
+			"$root",
+			"sudoslider",
+			"dvm",
+			".json",
+			"sqlite",
+			"tx",
+			"slideRight-fr",
+			"video",
+			"50-10",
+			"7318_40-10_ENG_NAV_Btn",
+			"slide",
+			"image-nav",
+			"FRN",
+			"image-nav",
+			"fifty-twenty-ten",
+			"\"js/",
+			"-00_NAV_Btn_",
+			"\"js/",
+			"image-nav",
+			"video",
+			"preventdefault",
+			"removeClasS(\"active\"",
+			"thisPageClass",
+			"animate",
+			"animate	",
+			"animate",
+			"ui-mo",
+			"addClass('showing')",
+			"click",
+			"enhance",
+			"7318_00-00_INDEX",
+			"mp4"
+>>>>>>> Minimal changes
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -428,6 +735,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"data-deck",
+			"SlideDeck.db",
+			"7318_40-10_ENG_NAV_Btn",
+			"ENG",
+			"\"../js/",
+			"-00_ENG_NAV_Btn_",
+			"\"../js/",
+			"thisPageBucket",
+			".png\" />"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -438,18 +754,107 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"sheets":
 			[
+=======
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/config/database.php",
+					"settings":
+					{
+						"buffer_size": 4612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1131.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/config/autoload.php",
+					"settings":
+					{
+						"buffer_size": 4024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2205,
+								2205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1068.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/views/sessions/all.php",
+					"settings":
+					{
+						"buffer_size": 377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+>>>>>>> Minimal changes
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"input":
 	{
-		"height": 30.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -460,11 +865,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -476,7 +888,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -484,6 +896,7 @@
 		"height": 0.0,
 		"selected_items":
 		[
+<<<<<<< HEAD
 			[
 				"data",
 				"application/config/database.php"
@@ -516,6 +929,8 @@
 				"inde",
 				"index.html"
 			]
+=======
+>>>>>>> Minimal changes
 		],
 		"width": 0.0
 	},
@@ -531,6 +946,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 202.0,
+	"side_bar_width": 252.0,
 	"status_bar_visible": true
 }

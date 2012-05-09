@@ -12,10 +12,9 @@ class Game_session extends CI_Model {
 
 	public function __construct($identifier = FALSE)
 	{
-		parent::__construct();
-		//Do your magic here
-
-		if ( $identifier ) $this->load($identifier);
+	   parent::__construct();
+	   //Do your magic here
+	   if ( $identifier ) $this->load($identifier);
 	}
 
 	public function get_session($slug = FALSE)
@@ -50,7 +49,7 @@ class Game_session extends CI_Model {
 
 		$data = array(
 			'title'		=> $this->input->post('title'),
-			'slug'		=> $slug,
+			'slug' 		=> $slug,
 			'campaign'	=> $this->input->post('campaign'),
 			'details'	=> $this->input->post('recap'),
 			'players'	=> $this->input->post('players')
