@@ -11,6 +11,7 @@ class Session extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+
 		$this->load->model('game_session');
 	}
 
@@ -66,14 +67,12 @@ class Session extends CI_Controller {
 		}
 		else
 		{
-			$session_model = $this->game_session->load($slug);
-
 			$page = array(
 				'title' 	=> $session_model->title,
 				'campaign' 	=> $session_model->campaign,
-				'details'  	=> $session_model->details
-				'posts'		=> $this->get_session->get_posts()
-			)
+				'details'  	=> $session_model->details,
+				'posts'		=> $this->game_session->get_posts($slug)
+			);
 
 			// Requires $page['posts'];
 			$page = array(

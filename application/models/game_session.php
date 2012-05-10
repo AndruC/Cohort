@@ -2,19 +2,10 @@
 
 class Game_session extends CI_Model {
 
-	var $id;
-	var $players = array();
-	public $title;
-	public $details = 'No details';
-	public $campaign;
-	public $messages = array();
-	public $encounters = array();
-
 	public function __construct($identifier = FALSE)
 	{
-	   parent::__construct();
-	   //Do your magic here
-	   if ( $identifier ) $this->load($identifier);
+		parent::__construct();
+		//Do your magic here
 	}
 
 	public function get_session($slug = FALSE)
@@ -34,8 +25,8 @@ class Game_session extends CI_Model {
 		return $query->row_array();
 	}
 
-	public function get_slug() { 
-	
+	public function get_slug()
+	{ 
 		$this->load->helper('url');
 
 		return url_title($this->$title, 'dash', TRUE);
@@ -60,15 +51,14 @@ class Game_session extends CI_Model {
 
 	public function load($identifier)
 	{
-		$session_data;
 
-		if ( is_string($identifier) )
+		if (is_string($identifier))
 		{
 			$query = $this->db->get_where('game_sessions', array('slug' => $identifier));
 		}
-		else ( is_numeric($identifier) )
+		elseif (is_numeric($identifier))
 		{
-			$query = $this->db->get_where('game_sessions', array('id' => $identifier))
+			$query = $this->db->get_where('game_sessions', array('id' => $identifier));
 		}
 
 		if ($query->num_rows() > 0)
@@ -76,9 +66,9 @@ class Game_session extends CI_Model {
 			$session_data = $query->row();
 
 			$this->db->select('posts.id, posts.owner, posts.text, posts.timestamp, users.first_name')
-					 ->join('users' 'posts.owner = users.id')
-					 ->where('session', $session_data->id)
-					 ->order_by('timestamp');
+						->join('users', 'posts.owner = users.id')
+						->where('session', $session_data->id)
+						->order_by('timestamp');
 
 			$post_q = $this->db->get('posts');
 
@@ -125,8 +115,11 @@ class Game_session extends CI_Model {
 
 	public function get_posts($id = FALSE)
 	{
-		if ( $id === FALSE ) return $this->messages;
-
+		if ( ! $id )
+		{}
+		elseif ( is_numeric($id) ) {
+			# code...
+		}
 	}
 
 	public function add_event()

@@ -4,5 +4,6 @@
 
 <!-- scripts concatenated and minified via build script -->
 <script src="<?php echo base_url('assets'); ?>/js/vendor/bootstrap.js"></script>
+<script src="<?php echo base_url('assets'); ?>/js/vendor/form/jquery.form.js"></script>
 <script src="<?php echo base_url('assets'); ?>/js/main.js"></script>
 <!-- end scripts -->

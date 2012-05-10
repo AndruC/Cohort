@@ -22,7 +22,7 @@
 		<?php echo form_dropdown('campaign', array('default' => 'Your Campaign')); // #TBD ?>
 				
 		<!-- Insert for loop to list out checkboxes of all available players -->
-		<!-- <?php echo form_checkbox('players', 'You', FALSE); ?> -->
+		<?php // echo form_checkbox('players', 'You', FALSE); ?>
 		
 		<?php echo form_submit('submit', 'Create Session'); ?>
 		
