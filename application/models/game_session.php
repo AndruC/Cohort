@@ -20,9 +20,12 @@ class Game_session extends CI_Model {
 			return $query->result_array();
 		}
 
-		$query = $this->db->get_where('game_sessions', array('slug' => $slug));
+		$session = $this->db->get_where('game_sessions', array('slug' => $slug))
+						->row_array();
 
-		return $query->row_array();
+		$session['timestamp'] = mysql_to_unix($session['timestamp']);
+
+		return $session;
 	}
 
 	public function get_slug()
@@ -49,76 +52,42 @@ class Game_session extends CI_Model {
 		return $this->db->insert('game_sessions', $data);
 	}
 
-	public function load($identifier)
+	// Expects an ID of a game_session.
+	//
+	public function get_posts($id = FALSE)
 	{
-
-		if (is_string($identifier))
+		if ( ! $id )
 		{
-			$query = $this->db->get_where('game_sessions', array('slug' => $identifier));
+			$post_q = $this->db->get('posts');
+
+			return $post_q->row_array();
 		}
-		elseif (is_numeric($identifier))
+		else
 		{
-			$query = $this->db->get_where('game_sessions', array('id' => $identifier));
-		}
-
-		if ($query->num_rows() > 0)
-		{
-			$session_data = $query->row();
-
-			$this->db->select('posts.id, posts.owner, posts.text, posts.timestamp, users.first_name')
-						->join('users', 'posts.owner = users.id')
-						->where('session', $session_data->id)
+			$this->db->select('posts.id, posts.owner, posts.text, posts.timestamp, 
+										characters.id, characters.name')
+						->join('characters', 'posts.owner = characters.id')
+						->where('session', $id)
 						->order_by('timestamp');
 
 			$post_q = $this->db->get('posts');
 
-			// Clean up a bit to get all post user data too (minimum id)
-			// SELECT p.id, p.owner, p.text, p.timestamp, u.first_name 
-			// FROM posts AS p
-			// INNER JOIN users AS u ON p.owner = u.id
+			if ($post_q->num_rows() > 0)
+			{
+				 $posts = $post_q->result_array();
 
-			$this->messages = $post_q->row_array();
+				 $posts['timestamp'] = mysql_to_unix($posts['timestamp']);
 
-			if ( is_string($session_data->players) )
-				$this->players = unserialize($session_data->players);
+				 return $posts;
+			}
+			else
+			{
+				// fail to get any messages
+				// set a flash message indicating so
+				// return 0
+			}
 
-			if ( is_string($session_data->details) )
-				$this->details = $session_data->details;
-
-			$this->title 	= $session_data->title;
-			$this->campaign = $session_data->campaign;
-
-			return $this;
-		}
-
-		return FALSE;
-	}
-
-	// Saves the loaded model to the database.
-	//
-	// This function can be called to save the loaded data to the database. 
-	// It ensures that defaults are saved in empty fields and will return some
-	// indication of failure should the necessary fields not be filled in.
-	public function save()
-	{
-		// Check if the data exists
-		$data = array(
-			'title'		=> $this->input->post('title'),
-			'slug'		=> $slug,
-			'campaign'	=> $this->input->post('campaign'),
-			'details'	=> $this->input->post('recap'),
-			'players'	=> $this->input->post('players')
-			);
-
-		return $this->db->insert('game_sessions', $data);
-	}
-
-	public function get_posts($id = FALSE)
-	{
-		if ( ! $id )
-		{}
-		elseif ( is_numeric($id) ) {
-			# code...
+			return 0;
 		}
 	}
 

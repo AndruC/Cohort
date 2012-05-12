@@ -34,10 +34,18 @@ class Session extends CI_Controller {
 		$this->form_validation->set_rules('title', 'Session title', 'required');
 		$this->form_validation->set_rules('campaign', 'Your Campaign', 'required');
 
+		$data['session'] = $this->game_session->get_session();
+
 		if ( ! $this->form_validation->run() )
 		{
 			// Validation error
-			$page['content'] = $this->load->view('forms/session', '', TRUE);
+
+			$dm_data = ''; // [campaigns, players]
+
+			$page['content'] = array(
+				$this->load->view('sessions/all', $data, TRUE),
+				$this->load->view('forms/session', $dm_data, TRUE), 
+			);
 			$page['page_title'] = 'Session Manager';
 
 			$this->load->view('layouts/main', $page);
@@ -56,31 +64,44 @@ class Session extends CI_Controller {
 
 		if ( ! $slug )
 		{	
+			$this->load->helper('form');
+
 			$data['session'] = $this->game_session->get_session();
 
+			$dm_data = ''; // [campaigns, players]
+
 			$page = array(
-				'page_title' => 'Cohort Sessions',
-				'content' => $this->load->view('sessions/all', $data, TRUE)
+				'content'	=> array (
+					$this->load->view('sessions/all', $data, TRUE),
+					$this->load->view('forms/session', $dm_data, TRUE), ),
+				'page_title'=> 'Session Manager',
 			);
+
 
 			$this->load->view('layouts/main', $page);
 		}
 		else
 		{
+			$session = $this->game_session->get_session($slug);
+			
+			$session['posts'] = $this->game_session->get_posts($slug);
+			
 			$page = array(
-				'title' 	=> $session_model->title,
-				'campaign' 	=> $session_model->campaign,
-				'details'  	=> $session_model->details,
-				'posts'		=> $this->game_session->get_posts($slug)
-			);
-
-			// Requires $page['posts'];
-			$page = array(
-				'page_title' => 'Cohort Sessions'
+				'page_title' 	=> 'Cohort Sessions',
+				'content'		=> $this->load->view('sessions/thread', $session, TRUE),
+				'user'			=> '',
 			);
 
 			$this->load->view('layouts/main', $page);
 		}
+	}
+
+	public function woah()
+	{
+		$this->load->model('game_session');
+		$this->load->library('table');
+
+		echo $this->table->generate($this->game_session->get_session('a-wild-adventure'));
 	}
 }
 

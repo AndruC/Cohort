@@ -1,6 +1,6 @@
 <div class="row">
-	<div class="span4 offset4">
-		<table>
+	<div class="span6 offset3">
+		<table class="table">
 		<tr><th>Session Title</th><th>Campaign ID</th><th>Slug</th></tr>
 		<?php foreach ($session as $s) : ?>
 			<tr>
